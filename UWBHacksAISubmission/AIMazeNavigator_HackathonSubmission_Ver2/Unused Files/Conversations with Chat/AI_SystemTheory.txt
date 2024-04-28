@@ -1,0 +1,17 @@
+Player starts a run:
+
+Player makes a move:
+
+- Memory should be captured, going from the first space to the second space.
+- If it is successful, then it should be noted that it can be used. If it isn't, then it shouldn't.
+- This should be added to a collection of moves used in a run. 
+
+Player ends a run:
+
+- Once the player has navigated to the end of the maze, mark the run as successful, and add a value to the moves to show that they are successful.
+- Say if the move is or isn't optimal, the chance it gets chosen, should have some relationship to maybe 1 / moves.
+- Add to the AI's memory in the form of an ArrayList.
+
+Player starts next run:
+
+- The chances for moves should normally be number of successes + 1 / number of times space was started from 

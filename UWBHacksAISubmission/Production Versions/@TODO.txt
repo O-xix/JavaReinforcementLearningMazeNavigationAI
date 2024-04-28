@@ -1,0 +1,2 @@
+- Include delays between System exits.
+- Make a final copy, an executable that utilizes text boxes for user inputs. (If stuck, use the Scratch Work folder to try and code a simple one, one with buttons, and one that allows text entry.)
